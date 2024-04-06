@@ -1,0 +1,181 @@
+.detailPage {
+    
+    max-width: 800px;
+    margin: 105px auto;
+    padding: 20px;
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .image-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-first img {
+    width: 300px; 
+    height: 200px; 
+  }
+  
+  .image-selection {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 20px;
+  }
+  
+  .images {
+    border: 2px solid black;
+    width: 80px; 
+    height: 80px; 
+    object-fit: cover; 
+    cursor: pointer; 
+  }
+
+
+
+  .detailPage .brand, .title, .description, .starRating, .price, .stock {
+    margin-bottom: 1px;
+  }
+  
+  .detailPage .brand {
+    font-weight: bold;
+    color: grey;
+  }
+  
+  .detailPage .title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .detailPage .description {
+    color: #666;
+  }
+  
+  .detailPage .starRating {
+    color: #FFA500;
+  }
+  
+  .detailPage .price {
+    font-size: 28px;
+    color: black;
+  }
+  
+  .detailPage .discount {
+    font-size: 22px;
+    color: #dc3545;
+    margin-left: 10px;
+  }
+  
+  .detailPage .stock {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .detailPage .amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .detailPage .amount button {
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+  }
+  .amount .leftBtn {
+    margin-left: 290px;
+  }
+  .amount .rightBtn {
+    margin-right: 290px;
+  }
+  
+  .detailPage .amount button:hover {
+    background-color: #e8e8e8;
+  }
+  
+  .detailPage .sum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .detailPage .sum-price, .count {
+    font: 18px;
+  }
+  .detailPage .price {
+    font-size: 25px;
+  }
+  
+  .detailPage .sum-total .price {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .detailPage .sum-total .countNum {
+    color: #007bff;
+  }
+  
+  
+  
+  .decision {
+    display: flex;
+    gap: 10px; 
+    margin-top: 20px; 
+  }
+  .decision button{
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s, transform 0.3s;
+    color: white;
+    margin: 5px;
+  }
+  
+  
+  .decision .buy {
+    background: linear-gradient(145deg, #ff7e5f, #feb47b);
+  }
+  .buy:hover {
+    background: linear-gradient(145deg, #feb47b, #ff7e5f);
+    transform: scale(1.05);
+  }
+  .buy:active {
+    background: linear-gradient(145deg, #f76a35, #fe9a73);
+    transform: scale(0.95);
+  }
+
+  
+  .decision .addToCart {
+    background: linear-gradient(145deg, #00c6ff, #0072ff);
+  }
+  .addToCart:hover {
+    background: linear-gradient(145deg, #0072ff, #00c6ff);
+    transform: scale(1.05);
+  }
+  .addToCart:active {
+    background: linear-gradient(145deg, #0057b8, #00b0ff);
+    transform: scale(0.95);
+  }
+  
+  .backToHome {
+    font-size: 16px;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    text-decoration: underline;
+  }
+  
+  .backToHome:hover {
+    color: #0056b3; 
+  }
